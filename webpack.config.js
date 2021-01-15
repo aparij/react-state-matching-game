@@ -5,7 +5,7 @@ module.exports = env => {
   const { entryDir } = env
 
   return {
-    entry: `./${entryDir || 'src'}/index.js`,
+    entry: `./${entryDir || 'refactor'}/index.js`,
     module: {
       rules: [
         {
